@@ -15,7 +15,6 @@ A very simple step view.
 
 ### Screenshots
 
-#### Normal
 ![](https://raw.github.com/zsk425/SKStepBar/master/Screenshots/example.png)
 
 ### License
