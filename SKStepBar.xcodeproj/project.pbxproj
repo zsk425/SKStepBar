@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1117CCB8F9655960FB0CD1 /* libPods-SKStepBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E26702BA104CAC5280C8E09C /* libPods-SKStepBar.a */; };
+		CBA490571B390EBE0074D7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA490561B390EBE0074D7D2 /* main.m */; };
+		CBA4905A1B390EBE0074D7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA490591B390EBE0074D7D2 /* AppDelegate.m */; };
+		CBA4905D1B390EBE0074D7D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4905C1B390EBE0074D7D2 /* ViewController.m */; };
+		CBA490601B390EBE0074D7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA4905E1B390EBE0074D7D2 /* Main.storyboard */; };
+		CBA490621B390EBE0074D7D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA490611B390EBE0074D7D2 /* Images.xcassets */; };
+		CBA490651B390EBE0074D7D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA490631B390EBE0074D7D2 /* LaunchScreen.xib */; };
+		CBA490711B390EBE0074D7D2 /* SKStepBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA490701B390EBE0074D7D2 /* SKStepBarTests.m */; };
+		CBA4907D1B390F010074D7D2 /* SKStepBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4907C1B390F010074D7D2 /* SKStepBar.m */; };
+		CBA490801B390F450074D7D2 /* SKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4907F1B390F450074D7D2 /* SKStep.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA4906B1B390EBE0074D7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA490491B390EBE0074D7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA490501B390EBE0074D7D2;
+			remoteInfo = SKStepBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46E95A0DEE7833088210A6AA /* Pods-SKStepBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKStepBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKStepBar/Pods-SKStepBar.release.xcconfig"; sourceTree = "<group>"; };
+		657B2A53F25405FC154FDE8E /* Pods-SKStepBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKStepBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKStepBar/Pods-SKStepBar.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA490511B390EBE0074D7D2 /* SKStepBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKStepBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA490551B390EBE0074D7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA490561B390EBE0074D7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA490581B390EBE0074D7D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBA490591B390EBE0074D7D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBA4905B1B390EBE0074D7D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBA4905C1B390EBE0074D7D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBA4905F1B390EBE0074D7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA490611B390EBE0074D7D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBA490641B390EBE0074D7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBA4906A1B390EBE0074D7D2 /* SKStepBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKStepBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA4906F1B390EBE0074D7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA490701B390EBE0074D7D2 /* SKStepBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKStepBarTests.m; sourceTree = "<group>"; };
+		CBA4907B1B390F010074D7D2 /* SKStepBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStepBar.h; path = SKStepBar/SKStepBar.h; sourceTree = "<group>"; };
+		CBA4907C1B390F010074D7D2 /* SKStepBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStepBar.m; path = SKStepBar/SKStepBar.m; sourceTree = "<group>"; };
+		CBA4907E1B390F450074D7D2 /* SKStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStep.h; path = SKStepBar/SKStep.h; sourceTree = "<group>"; };
+		CBA4907F1B390F450074D7D2 /* SKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStep.m; path = SKStepBar/SKStep.m; sourceTree = "<group>"; };
+		E26702BA104CAC5280C8E09C /* libPods-SKStepBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKStepBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA4904E1B390EBE0074D7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1117CCB8F9655960FB0CD1 /* libPods-SKStepBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA490671B390EBE0074D7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264E936E2BFC60B1827756A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				657B2A53F25405FC154FDE8E /* Pods-SKStepBar.debug.xcconfig */,
+				46E95A0DEE7833088210A6AA /* Pods-SKStepBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA06BAF38BFFD6F5471D8307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E26702BA104CAC5280C8E09C /* libPods-SKStepBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA490481B390EBE0074D7D2 = {
+			isa = PBXGroup;
+			children = (
+				CBA490531B390EBE0074D7D2 /* SKStepBar */,
+				CBA4906D1B390EBE0074D7D2 /* SKStepBarTests */,
+				CBA490521B390EBE0074D7D2 /* Products */,
+				264E936E2BFC60B1827756A8 /* Pods */,
+				AA06BAF38BFFD6F5471D8307 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA490521B390EBE0074D7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA490511B390EBE0074D7D2 /* SKStepBar.app */,
+				CBA4906A1B390EBE0074D7D2 /* SKStepBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA490531B390EBE0074D7D2 /* SKStepBar */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4907A1B390ECA0074D7D2 /* SKStepBar */,
+				CBA490581B390EBE0074D7D2 /* AppDelegate.h */,
+				CBA490591B390EBE0074D7D2 /* AppDelegate.m */,
+				CBA4905B1B390EBE0074D7D2 /* ViewController.h */,
+				CBA4905C1B390EBE0074D7D2 /* ViewController.m */,
+				CBA4905E1B390EBE0074D7D2 /* Main.storyboard */,
+				CBA490611B390EBE0074D7D2 /* Images.xcassets */,
+				CBA490631B390EBE0074D7D2 /* LaunchScreen.xib */,
+				CBA490541B390EBE0074D7D2 /* Supporting Files */,
+			);
+			path = SKStepBar;
+			sourceTree = "<group>";
+		};
+		CBA490541B390EBE0074D7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA490551B390EBE0074D7D2 /* Info.plist */,
+				CBA490561B390EBE0074D7D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA4906D1B390EBE0074D7D2 /* SKStepBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA490701B390EBE0074D7D2 /* SKStepBarTests.m */,
+				CBA4906E1B390EBE0074D7D2 /* Supporting Files */,
+			);
+			path = SKStepBarTests;
+			sourceTree = "<group>";
+		};
+		CBA4906E1B390EBE0074D7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4906F1B390EBE0074D7D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA4907A1B390ECA0074D7D2 /* SKStepBar */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4907B1B390F010074D7D2 /* SKStepBar.h */,
+				CBA4907C1B390F010074D7D2 /* SKStepBar.m */,
+				CBA4907E1B390F450074D7D2 /* SKStep.h */,
+				CBA4907F1B390F450074D7D2 /* SKStep.m */,
+			);
+			name = SKStepBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA490501B390EBE0074D7D2 /* SKStepBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA490741B390EBE0074D7D2 /* Build configuration list for PBXNativeTarget "SKStepBar" */;
+			buildPhases = (
+				DBBDF74A4252F7FE749ED610 /* Check Pods Manifest.lock */,
+				CBA4904D1B390EBE0074D7D2 /* Sources */,
+				CBA4904E1B390EBE0074D7D2 /* Frameworks */,
+				CBA4904F1B390EBE0074D7D2 /* Resources */,
+				EC795F3123C495FDECD3AD73 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKStepBar;
+			productName = SKStepBar;
+			productReference = CBA490511B390EBE0074D7D2 /* SKStepBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA490691B390EBE0074D7D2 /* SKStepBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA490771B390EBE0074D7D2 /* Build configuration list for PBXNativeTarget "SKStepBarTests" */;
+			buildPhases = (
+				CBA490661B390EBE0074D7D2 /* Sources */,
+				CBA490671B390EBE0074D7D2 /* Frameworks */,
+				CBA490681B390EBE0074D7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA4906C1B390EBE0074D7D2 /* PBXTargetDependency */,
+			);
+			name = SKStepBarTests;
+			productName = SKStepBarTests;
+			productReference = CBA4906A1B390EBE0074D7D2 /* SKStepBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA490491B390EBE0074D7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zhaosk;
+				TargetAttributes = {
+					CBA490501B390EBE0074D7D2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CBA490691B390EBE0074D7D2 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CBA490501B390EBE0074D7D2;
+					};
+				};
+			};
+			buildConfigurationList = CBA4904C1B390EBE0074D7D2 /* Build configuration list for PBXProject "SKStepBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA490481B390EBE0074D7D2;
+			productRefGroup = CBA490521B390EBE0074D7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA490501B390EBE0074D7D2 /* SKStepBar */,
+				CBA490691B390EBE0074D7D2 /* SKStepBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA4904F1B390EBE0074D7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA490601B390EBE0074D7D2 /* Main.storyboard in Resources */,
+				CBA490651B390EBE0074D7D2 /* LaunchScreen.xib in Resources */,
+				CBA490621B390EBE0074D7D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA490681B390EBE0074D7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBBDF74A4252F7FE749ED610 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC795F3123C495FDECD3AD73 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKStepBar/Pods-SKStepBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA4904D1B390EBE0074D7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA4905D1B390EBE0074D7D2 /* ViewController.m in Sources */,
+				CBA4907D1B390F010074D7D2 /* SKStepBar.m in Sources */,
+				CBA4905A1B390EBE0074D7D2 /* AppDelegate.m in Sources */,
+				CBA490801B390F450074D7D2 /* SKStep.m in Sources */,
+				CBA490571B390EBE0074D7D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA490661B390EBE0074D7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA490711B390EBE0074D7D2 /* SKStepBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA4906C1B390EBE0074D7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA490501B390EBE0074D7D2 /* SKStepBar */;
+			targetProxy = CBA4906B1B390EBE0074D7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA4905E1B390EBE0074D7D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA4905F1B390EBE0074D7D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA490631B390EBE0074D7D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA490641B390EBE0074D7D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA490721B390EBE0074D7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBA490731B390EBE0074D7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA490751B390EBE0074D7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657B2A53F25405FC154FDE8E /* Pods-SKStepBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKStepBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBA490761B390EBE0074D7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E95A0DEE7833088210A6AA /* Pods-SKStepBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKStepBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBA490781B390EBE0074D7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKStepBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKStepBar.app/SKStepBar";
+			};
+			name = Debug;
+		};
+		CBA490791B390EBE0074D7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKStepBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKStepBar.app/SKStepBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA4904C1B390EBE0074D7D2 /* Build configuration list for PBXProject "SKStepBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA490721B390EBE0074D7D2 /* Debug */,
+				CBA490731B390EBE0074D7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA490741B390EBE0074D7D2 /* Build configuration list for PBXNativeTarget "SKStepBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA490751B390EBE0074D7D2 /* Debug */,
+				CBA490761B390EBE0074D7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA490771B390EBE0074D7D2 /* Build configuration list for PBXNativeTarget "SKStepBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA490781B390EBE0074D7D2 /* Debug */,
+				CBA490791B390EBE0074D7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA490491B390EBE0074D7D2 /* Project object */;
+}
