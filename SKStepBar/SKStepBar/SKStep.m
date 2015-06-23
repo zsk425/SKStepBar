@@ -44,7 +44,7 @@ static CGFloat const kDotRadius = 10.0;
 
 - (void)setupViews
 {
-    _selectedColor = self.tintColor;
+    _selectedColor = [UIColor orangeColor];
     
     [self addSubview:self.dot];
     [self addSubview:self.label];
