@@ -81,6 +81,7 @@
     if (!_line)
     {
         _line = [UIView new];
+        _line.translatesAutoresizingMaskIntoConstraints = NO;
         _line.backgroundColor = self.tintColor;
     }
     
@@ -100,6 +101,7 @@
     for (NSString *title in titles)
     {
         paddingView = [UIView new];
+        paddingView.translatesAutoresizingMaskIntoConstraints = NO;
         paddingView.hidden = YES;
         [self addSubview:paddingView];
         if (firstPaddingView && previousView)
@@ -122,6 +124,7 @@
         previousView = paddingView;
         
         SKStep *step = [SKStep new];
+        step.translatesAutoresizingMaskIntoConstraints = NO;
         step.title = title;
         step.font = font;
         [steps addObject:step];
@@ -137,6 +140,7 @@
     if (previousView)
     {
         paddingView = [UIView new];
+        paddingView.translatesAutoresizingMaskIntoConstraints = NO;
         paddingView.hidden = YES;
         [self addSubview:paddingView];
         [paddingView mas_makeConstraints:^(MASConstraintMaker *make) {

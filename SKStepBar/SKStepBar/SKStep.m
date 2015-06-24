@@ -142,6 +142,7 @@ static CGFloat const kDotRadius = 10.0;
     if (!_dot)
     {
         _dot = [UIView new];
+        _dot.translatesAutoresizingMaskIntoConstraints = NO;
         _dot.layer.cornerRadius = kDotRadius;
         _dot.backgroundColor = self.tintColor;
         _dot.clipsToBounds = YES;
@@ -155,6 +156,7 @@ static CGFloat const kDotRadius = 10.0;
     if (!_label)
     {
         _label = [UILabel new];
+        _label.translatesAutoresizingMaskIntoConstraints = NO;
         if (!_font)
         {
             _label.font = _font;
